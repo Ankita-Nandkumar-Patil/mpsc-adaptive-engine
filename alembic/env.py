@@ -7,7 +7,9 @@ from alembic import context
 
 from app.config import settings
 from app.db.session import Base
-from app.modules.exams.models import Exam
+
+
+from app.db.models import Exam, Student, StudentExam
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
